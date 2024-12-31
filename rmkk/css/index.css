@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+html ,body{
+    font-family: 'Roboto',sans-serif;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+.text__color{
+    color: #ff2e63 ;
+}
+
+.titles{
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px;
+    line-height: 40px;
+}
+
+.btn{
+    background-color: #08d9d6;
+    color: #fff;
+    padding: 8px 24px ;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color:#ff2e63 ;
+}
+
+/* section: nav */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 8px;
+    position: sticky;
+    top:0%;
+    z-index: 1;
+    opacity: .9;
+    background-color: #252a34 ;
+    color: #fff;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a{
+    color: #fff;
+    padding: 16px;
+}
+
+.nav ul li a:hover{
+    background-color: #08d9d6;
+    border-radius: 5px;
+}
+
+/*section: welcome*/
+.welcome__pic{
+    background:#252a34 url(../img/real_madrid.webp) no-repeat center/ cover ;
+    height:100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.welcome__pic , .welcome__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*section: information */
+.information__content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.information__content div
+.information__content img {
+    flex-shrink: 1;
+}
+.information__content img {
+    width: 50;
+    margin-left:24px;
+    border: 5px solid #fff;
+}
+/* history */
+.history {
+    background: url(../img/real_madrid.webp) no-repeat center center/cover ;
+    color: #fff;
+    text-align: center;
+}
+
+.history__content{
+    min-height: 350px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 16px;
+}
+
+.contaner p{
+    margin-bottom: 24px;
+}
+
+/* plyers*/
+.plyers .plyers__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#eaeaea ;
+    color: #252a34;
+}
+.plyer__box{
+   background-color:#fff ; 
+   flex: 1;
+   border-radius: 5px;
+   margin: 16px;
+   box-shadow:0 0 2px;
+   padding: 24px;
+}
+
+.plyer__box img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* coaches */
+.coach .coaches__boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coach__box {
+    background-color: #fff;
+    flex: 1;
+    border-radius: 5px;
+    margin: 16px;
+    box-shadow: 0 0 2px;
+    padding: 24px;
+}
+.coach__box img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    background: #252a34;
+    padding: 24px;
+}

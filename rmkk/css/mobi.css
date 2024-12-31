@@ -1,0 +1,48 @@
+/* navbar */
+.nav {
+    flex-direction: column;
+    padding-bottom:24px;
+    position: static;
+}
+.nav .logo {
+    margin-bottom: 16px;
+}
+
+.titles{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.history__discription {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/* Informaion */
+.information__content{
+    display: block;
+    text-align: center;
+}
+
+.information__content img{
+    width: 100%;
+    margin: 16px 0 0 0;
+}
+
+/* plyers */
+.plyers__boxes{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+@media(max-width: 500px){
+    .nav ul {
+        display: block;
+        text-align: center;
+    }
+    .nav ul li {
+        padding: 16px;
+    }
+}
